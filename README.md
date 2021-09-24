@@ -8,8 +8,9 @@ git clone https://github.com/SeemaBhati/respkey.git
 
 ## Usage
 ```
-./RespKey -u http://webcode.me -s Hello 
+go run respkey.go -u http://webcode.me -s Hello 
 ```
+Use ``` -silent ``` flag to hide the response body
 ```
-./RespKey -u http://webcode.me -s Hello -silent
+go run respkey.go -u http://webcode.me -s Hello -silent
 ```
