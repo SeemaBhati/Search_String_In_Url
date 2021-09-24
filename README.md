@@ -3,7 +3,7 @@ RespKey is a tool through which you can search keywords in the response body.
 
 ## Installation
 ```
-go get github.com/SeemaBhati/respkey
+go get -u github.com/SeemaBhati/respkey
 ```
 
 ## Usage
