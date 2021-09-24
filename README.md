@@ -1,2 +1,13 @@
-# Search_String_In_Url
-The code is developed in GoLang.
+# RespKey
+RespKey is a tool through which you can search keywords in the response body.
+
+## Installation
+```
+Hello
+```
+
+## Usage
+```
+./RespKey -u http://webcode.me -s Hello 
+./RespKey -u http://webcode.me -s Hello -silent
+```
