@@ -79,9 +79,9 @@ func Hunting(Url, Srh string, Slt bool) {
 	reg, _ := regexp.MatchString("(?i)"+Srh, string(body))
 	// if..else loop if reg is found the search results will be shown
 	if reg == true {
-		fmt.Println("[+] Search Results:", Srh)
+		fmt.Println("[+] Found:", Srh)
 	} else {
-		fmt.Println("[-] Search Not Found: ", Srh)
+		fmt.Println("[-] Not Found:", Srh)
 	}
 
 	fmt.Println("====================================================================")
