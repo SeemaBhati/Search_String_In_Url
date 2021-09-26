@@ -89,6 +89,17 @@ func Hunting(Url, Srh string, Slt bool) {
 
 //main function starts here
 func main() {
+	
+	Banner :=
+		`
+	  __      ____                   _  __               __
+	 / /  _  |  _ \ ___  ___ _ __   | |/ /___ _   _   _  \ \
+	| |  (_) | |_) / _ \/ __| '_ \  | ' // _ \ | | | (_)  | |
+	| |   _  |  _ <  __/\__ \ |_) | | . \  __/ |_| |  _   | |
+	| |  (_) |_| \_\___||___/ .__/  |_|\_\___|\__, | (_)  | |
+	 \_\                    |_|               |___/      /_/
+	`
+	fmt.Println(Banner)
 
 	// Variable declartion
 	var Url, Srh, Flist string
